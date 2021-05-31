@@ -5,6 +5,7 @@ import kayak from '../images/kayak.jpg';
 export default function About() {
     return (
         <div className="about">
+            <h1>About</h1>
             <img src={kayak} alt=""/>
             <p className="">
             Hey everyone! Welcome to my page and thanks for visiting. 

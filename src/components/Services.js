@@ -9,6 +9,7 @@ function Services() {
     return (
         <div className='servicesPage'>
 
+            <h1>Services</h1>
             <div className='servicesSingleCont'>
                 <h2>Individual</h2>
                 <div className='servicesSingleCont2'>
