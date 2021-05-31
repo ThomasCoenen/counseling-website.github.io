@@ -79,8 +79,8 @@ export default function Contact() {
                     <label htmlFor="message">Brief description of services being sought</label>
                     <textarea 
                         type="text"
-                        rows="8" 
-                        cols="35" 
+                        // rows="8" 
+                        // cols="35" 
                         required 
                         placeholder="Services"
                         value={message}

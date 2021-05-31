@@ -192,10 +192,10 @@ body {
   justify-items: center;
   justify-content: center;
   /* align-items: center; */
-  /* width:80%; */
+  width:100%;
 }
 .contactDesc{
-  width:60%;
+  width:75%;
   font-size:18px;
   /* justify-self: center; */
 }
@@ -204,7 +204,11 @@ body {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto auto auto;
   grid-gap:10px;
-  margin: 0px 0px 75px 0px;
+  margin: 0px 0px 0px 0px;
+  /* border: 1px solid; */
+  /* width:50%; */
+  /* width:80%;
+  align-self: center; */
 }
 .doublebox{
   display: grid;
@@ -523,6 +527,16 @@ footer {
   .headerBottom {
     grid-template-columns: repeat(auto-fill, minmax(auto, 60px));
     font-size:13px;
+  }
+
+  .contactDesc{
+    width:90%;
+    font-size:18px;
+    /* justify-self: center; */
+  }
+  .form {
+    /* padding: 0px -10px 0px 0px; */
+    /* margin: 0px 0px 0px 0px; */
   }
 }
 

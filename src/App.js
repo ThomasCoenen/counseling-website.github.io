@@ -1,3 +1,7 @@
+//git add .
+//git commit -m "first commit"
+//git push -u origin main   
+//npm run deploy          
 import './App.css';
 import { BrowserRouter, Route, Link} from 'react-router-dom';
 import About from './components/About';
