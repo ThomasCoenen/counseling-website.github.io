@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/counseling-website.github.io/static/css/main.6f147f61.chunk.css",
-    "main.js": "/counseling-website.github.io/static/js/main.0999d5bc.chunk.js",
-    "main.js.map": "/counseling-website.github.io/static/js/main.0999d5bc.chunk.js.map",
+    "main.css": "/counseling-website.github.io/static/css/main.15d66026.chunk.css",
+    "main.js": "/counseling-website.github.io/static/js/main.bd123780.chunk.js",
+    "main.js.map": "/counseling-website.github.io/static/js/main.bd123780.chunk.js.map",
     "runtime-main.js": "/counseling-website.github.io/static/js/runtime-main.ef3327ab.js",
     "runtime-main.js.map": "/counseling-website.github.io/static/js/runtime-main.ef3327ab.js.map",
     "static/js/2.0583c272.chunk.js": "/counseling-website.github.io/static/js/2.0583c272.chunk.js",
     "static/js/2.0583c272.chunk.js.map": "/counseling-website.github.io/static/js/2.0583c272.chunk.js.map",
     "index.html": "/counseling-website.github.io/index.html",
-    "static/css/main.6f147f61.chunk.css.map": "/counseling-website.github.io/static/css/main.6f147f61.chunk.css.map",
+    "static/css/main.15d66026.chunk.css.map": "/counseling-website.github.io/static/css/main.15d66026.chunk.css.map",
     "static/js/2.0583c272.chunk.js.LICENSE.txt": "/counseling-website.github.io/static/js/2.0583c272.chunk.js.LICENSE.txt",
     "static/media/adolescent.28e3d6cf.jpg": "/counseling-website.github.io/static/media/adolescent.28e3d6cf.jpg",
     "static/media/banner4.7c6e669f.jpg": "/counseling-website.github.io/static/media/banner4.7c6e669f.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.ef3327ab.js",
     "static/js/2.0583c272.chunk.js",
-    "static/css/main.6f147f61.chunk.css",
-    "static/js/main.0999d5bc.chunk.js"
+    "static/css/main.15d66026.chunk.css",
+    "static/js/main.bd123780.chunk.js"
   ]
 }
