@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/counseling-website.github.io/static/css/main.e80ca006.chunk.css",
+    "main.js": "/counseling-website.github.io/static/js/main.bc684c89.chunk.js",
+    "main.js.map": "/counseling-website.github.io/static/js/main.bc684c89.chunk.js.map",
+    "runtime-main.js": "/counseling-website.github.io/static/js/runtime-main.65940184.js",
+    "runtime-main.js.map": "/counseling-website.github.io/static/js/runtime-main.65940184.js.map",
+    "static/js/2.b55d123a.chunk.js": "/counseling-website.github.io/static/js/2.b55d123a.chunk.js",
+    "static/js/2.b55d123a.chunk.js.map": "/counseling-website.github.io/static/js/2.b55d123a.chunk.js.map",
+    "index.html": "/counseling-website.github.io/index.html",
+    "static/css/main.e80ca006.chunk.css.map": "/counseling-website.github.io/static/css/main.e80ca006.chunk.css.map",
+    "static/js/2.b55d123a.chunk.js.LICENSE.txt": "/counseling-website.github.io/static/js/2.b55d123a.chunk.js.LICENSE.txt",
+    "static/media/adolescent.28e3d6cf.jpg": "/counseling-website.github.io/static/media/adolescent.28e3d6cf.jpg",
+    "static/media/banner4.7c6e669f.jpg": "/counseling-website.github.io/static/media/banner4.7c6e669f.jpg",
+    "static/media/couples.41ec44a6.jpg": "/counseling-website.github.io/static/media/couples.41ec44a6.jpg",
+    "static/media/faith.b634c708.jpg": "/counseling-website.github.io/static/media/faith.b634c708.jpg",
+    "static/media/family.2791c557.jpg": "/counseling-website.github.io/static/media/family.2791c557.jpg",
+    "static/media/individual.7d396e6f.jpg": "/counseling-website.github.io/static/media/individual.7d396e6f.jpg",
+    "static/media/kayak.5cd9cff9.jpg": "/counseling-website.github.io/static/media/kayak.5cd9cff9.jpg",
+    "static/media/logo6.0a3a1f55.png": "/counseling-website.github.io/static/media/logo6.0a3a1f55.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65940184.js",
+    "static/js/2.b55d123a.chunk.js",
+    "static/css/main.e80ca006.chunk.css",
+    "static/js/main.bc684c89.chunk.js"
+  ]
+}
