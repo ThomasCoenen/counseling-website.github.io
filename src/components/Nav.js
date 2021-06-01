@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Link} from 'react-router-dom';
 import proj1img from '../images/Logo Cropped.png';
-import banner from '../images/banner4.jpg';
+import banner from '../images/banner-pref.jpg';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 
 function Nav() {
@@ -9,8 +9,9 @@ function Nav() {
         <div className="header-wrap">
 
             <div className="headerTop">
-                <Link to="/"><img className="logoImg" src={proj1img} alt="hi"/></Link>
-                <Link to="/"><img className="stockImg" src={banner} alt="hi"/></Link>
+                <Link className="logoImg" to="/"><img className="logoImg" src={proj1img} alt="hi"/></Link>
+                {/* <Link className="stockImg" to="/"><img className="stockImg" src={banner} alt="hi"/></Link> */}
+                <img className="stockImg" to="/"></img>
             </div>
 
             <ul className="headerBottom">
