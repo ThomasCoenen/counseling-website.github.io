@@ -17,21 +17,16 @@ import Services from './components/Services';
 function App(props) {
   return (
     <BrowserRouter>
-      <div className="container">
-
-        {/* <Nav/> */}
-
-        <div className="content">
-          <Nav/>
-          <Route path="/faq" component={FAQ}></Route>
-          <Route path="/contact" component={Contact}></Route>
-          <Route path="/rates" component={Rates}></Route>
-          <Route path="/services" component={Services}></Route>
-          <Route path="/about" component={About}></Route>
-          <Route path="/" component={Homescreen} exact></Route>
-          <Footer/>
-          <br/>
-        </div>
+      <div className="content">
+        <Nav/>
+        <Route path="/faq" component={FAQ}></Route>
+        <Route path="/contact" component={Contact}></Route>
+        <Route path="/rates" component={Rates}></Route>
+        <Route path="/services" component={Services}></Route>
+        <Route path="/about" component={About}></Route>
+        <Route path="/" component={Homescreen} exact></Route>
+        <Footer/>
+        <br/>
       </div>
   </BrowserRouter>
 
