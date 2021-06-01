@@ -21,7 +21,7 @@ export default function Homescreen() {
   return (
       <>
         <section id="welcome">
-            <h2 style={{textAlign: "center", marginRight: "14px", marginLeft:"14px"}}>Transformed Within, LLC
+            <h2>Transformed Within, LLC
             </h2>
         </section>
 

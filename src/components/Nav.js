@@ -9,7 +9,8 @@ function Nav() {
         <div className="header-wrap">
 
             <div className="headerTop">
-                <Link className="logoImg" to="/"><img className="logoImg" src={proj1img} alt="hi"/></Link>
+                {/* <Link className="logoImg" to="/"><img className="logoImg" src={proj1img} alt="hi"/></Link> */}
+                <img className="logoImg" src={proj1img} alt="hi"/>
                 {/* <Link className="stockImg" to="/"><img className="stockImg" src={banner} alt="hi"/></Link> */}
                 <img className="stockImg" to="/"></img>
             </div>

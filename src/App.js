@@ -19,9 +19,10 @@ function App(props) {
     <BrowserRouter>
       <div className="container">
 
-        <Nav/>
+        {/* <Nav/> */}
 
         <div className="content">
+          <Nav/>
           <Route path="/faq" component={FAQ}></Route>
           <Route path="/contact" component={Contact}></Route>
           <Route path="/rates" component={Rates}></Route>

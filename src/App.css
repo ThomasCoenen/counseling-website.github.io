@@ -3,8 +3,6 @@
 * {
   text-decoration: none;
   font-family: 'PT Serif', serif;
-  /* padding:0px;
-  margin:0px; */
 }
 body {
   margin: auto 0;
@@ -123,7 +121,7 @@ body {
   overflow: hidden;
   overflow-y: scroll;
   width: 100vw;
-  font-size: 21px;
+  /* font-size: 21px; */
 }
 #welcome {
   display: grid;
@@ -131,7 +129,7 @@ body {
   justify-items: center;
 }
 #welcome > h2 {
-  font-size: 26px;
+  font-size: 35px;
 }
 #welcomeMsg {
   display: grid;
@@ -142,19 +140,21 @@ body {
 }
 #project-heading {
   display: grid;
-  font-size: 16px;
   width: 80%;
+}
+#project-heading > h2{
+  font-size:20px;
 }
 .about {
   display: grid;
   justify-items: center;
   text-align: center;
-  margin-top: -20px;
-  padding: 0px 30px 0px 30px;
+  /* margin-top: -20px; */
+  /* padding: 0px 30px 0px 30px; */
 }
 .about > img {
   object-fit: contain;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   width: 290px;
   height: 290px;
 }
@@ -326,7 +326,7 @@ footer {
   display: grid;
   /* grid-template-columns: auto;
   grid-template-rows: auto auto auto; */
-  grid-gap:3px;
+  /* grid-gap:3px; */
   justify-items: center;
   align-items: center;
   width:100%;
@@ -340,8 +340,8 @@ footer {
   align-items: center;
   /* align-content: center;
   justify-content: center; */
-  border-bottom: 1px solid;
-  padding:0px 0px 20px 0px;
+  border-bottom: 0.5px solid;
+  padding:0px 0px 12px 0px;
   width:100%;
   /* height:300px; */
   /* padding-bottom:40px */
@@ -504,7 +504,7 @@ footer {
   display:grid;
   justify-self:end;
   width: 170px;
-  height: 170px;
+  height: 171px;
   border-radius: 6px;
   /* margin-bottom:-8px; */
   width:100%;
@@ -519,7 +519,7 @@ footer {
   /* width:1100px; */
   /* width:80vw; */
   width:94%;
-  height:170px;
+  height:171px;
 }
 @media(max-width: 1400px){
   .logoImg {
