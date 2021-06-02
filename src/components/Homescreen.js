@@ -21,8 +21,7 @@ export default function Homescreen() {
   return (
       <>
         <section id="welcome">
-            <h2>Transformed Within, LLC
-            </h2>
+            <h2>Transformed Within, LLC</h2>
         </section>
 
         <section id="welcomeMsg">

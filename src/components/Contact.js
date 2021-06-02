@@ -1,50 +1,93 @@
-import React, {useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import '../App.css';
+import emailjs from 'emailjs-com';
+// import { useDispatch, useSelector } from 'react-redux'
+import { Link, useHistory, useParams } from 'react-router-dom'
 // import { Axios, db } from './firebase'
 
 export default function Contact() {
-    const [name, setName] = useState("");
+    const [firstName, setfirstName] = useState("");
+    const [lastName, setlastName] = useState("");
+    const [phoneNumber, setphoneNumber] = useState("");
     const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
-    const [status, setStatus] = useState("Send");
+    const [messageSelection, setmessageSelection] = useState('');
+    const [services, setServices] = useState("");
+    const [checkedNo, setCheckedNo] = useState(false);
+    const [checkedYes, setCheckedYes] = useState(false);
+    // const [status, setStatus] = useState("Send");
+
+    const sendEmail = (e) => {
+        e.preventDefault()
+        console.log('messageSelectionForm',messageSelection)
+        fetch("/send-email", {method:"post",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({firstName, lastName, phoneNumber, email, messageSelection, services})
+        })
+        .then(res=>res.json())
+        .then(data => {
+            console.log("contactData:", data)
+            if(data.error) {
+                alert('Sorry there was an error sending your message')
+            }
+            else {  
+                console.log(data)
+                alert(data.message)
+                setfirstName('')
+                setlastName('')
+                setphoneNumber('')
+                setEmail('')
+                setmessageSelection('')
+                setServices('')
+                setCheckedNo(false)
+                setCheckedYes(false)
+                // history.push("/login")
+            }
+        })
+        .catch(err =>{console.log(err)})
+
+        // emailjs.sendForm('gmail', 'template_9c4x758', e.target, 'YOUR_USER_ID')
+        // .then((result) => {
+        //     console.log(result.text);
+        // }, (error) => {
+        //     console.log(error.text);
+        // });
+    }
+
+    useEffect(()=>{
+
+    },[messageSelection])
 
     return (
         <div className='contactPage'>
             <h1>Contact</h1>
             <h1 className='contactDesc'>You can also reach me directly here as well:You can also reach me directly here as well:You can also reach me directly here as well:You can also reach me directly here as well:</h1>
             <div className="formDiv">
-                <form className="form">
+                <form className="form" onSubmit={sendEmail}>
                     
                     <div className="doublebox">
                         <input 
                             type="text" 
-                            id="name" 
-                            name="name"
                             required 
                             placeholder="First name"
-                            value={name}
-                            onChange={(e) => setName(e.target.value)}
+                            value={firstName}
+                            onChange={(e) => setfirstName(e.target.value)}
                         />
                         <input 
                             type="text" 
-                            id="name" 
-                            name="name"
                             required 
                             placeholder="Last name"
-                            value={name}
-                            onChange={(e) => setName(e.target.value)}
+                            value={lastName}
+                            onChange={(e) => setlastName(e.target.value)}
                         />
                     </div>
 
                     <div className="doublebox2">
                         <input 
-                            type="email" 
-                            id="email" 
-                            name="email"
+                            type="text" 
                             required 
                             placeholder="Phone number"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
+                            value={phoneNumber}
+                            onChange={(e) => setphoneNumber(e.target.value)}
                         />
                         <div className="doublebox2Messages">
                             <label htmlFor="email">Can I leave messages?</label>
@@ -53,13 +96,31 @@ export default function Contact() {
                                 <input 
                                     type="checkbox" 
                                     className="postCostCheckbox"
-                                    onChange={(e) => setEmail(e.target.value)}
+                                    checked={checkedYes}
+                                    value='Yes'
+                                    onChange={(e) => {
+                                        console.log(messageSelection)
+                                        if(messageSelection==='No'){
+                                            setCheckedNo(false)
+                                            setCheckedYes(!checkedYes)
+                                        } else (setCheckedYes(true))
+                                        setmessageSelection(e.target.value)
+                                    }}
                                 />
                                 <label style={{marginLeft:"5px"}} htmlFor="message">No</label>
                                 <input 
                                     type="checkbox" 
                                     className="postCostCheckbox"
-                                    onChange={(e) => setEmail(e.target.value)}
+                                    checked={checkedNo}
+                                    value='No'
+                                    onChange={(e) => {
+                                        console.log(messageSelection)
+                                        if(messageSelection==='Yes'){
+                                            setCheckedYes(false)
+                                            setCheckedNo(!checkedNo)
+                                        } else (setCheckedNo(true))
+                                        setmessageSelection(e.target.value)
+                                    }}
                                 />
                             </div>
                         </div>
@@ -71,8 +132,8 @@ export default function Contact() {
                             type="text"
                             required 
                             placeholder="Email"
-                            value={message}
-                            onChange={(e) => setMessage(e.target.value)}
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
                         />
                     </div>
 
@@ -80,12 +141,10 @@ export default function Contact() {
                         <label htmlFor="message">Brief description of services being sought</label>
                         <textarea 
                             type="text"
-                            // rows="8" 
-                            // cols="35" 
                             required 
                             placeholder="Services"
-                            value={message}
-                            onChange={(e) => setMessage(e.target.value)}
+                            value={services}
+                            onChange={(e) => setServices(e.target.value)}
                         />
                     </div>
 
