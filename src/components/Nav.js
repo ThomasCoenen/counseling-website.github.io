@@ -16,30 +16,35 @@ function Nav() {
             </div>
 
             <ul className="headerBottom">
-                <li className="nav-list"><Link to="/">Home</Link></li>
-                <li className="nav-list"><Link to="/about">About</Link></li>
-                <li className="nav-list"><Link to="/services">Services</Link></li>
+                {/* <div>
 
-                {/* <li className="nav-list dropdownCont">
-                    <div className="dropdown-select">
-                        <div className="dropdown">
-                            <Link to='/services' className="dropdownLink2 nav-list2">Services
-                                <ArrowDropDownIcon className="carotHover"/>
-                                <div className="dropdown-list">
-                                    <Link to="/myevents" className="dropdown-list__item">Individual</Link>
-                                    <Link to="/likes" className="dropdown-list__item">Couples</Link>
-                                    <Link to="/likes" className="dropdown-list__item">Families</Link>
-                                    <Link to="/likes" className="dropdown-list__item">Adolescents</Link>
-                                    <Link to="/likes" className="dropdown-list__item">Faith Based Counseling</Link>
-                                </div>
-                            </Link>
+                </div> */}
+                {/* <div className="headerBottom2"> */}
+                    <li className="nav-list"><Link to="/">Home</Link></li>
+                    <li className="nav-list"><Link to="/about">About</Link></li>
+                    <li className="nav-list"><Link to="/services">Services</Link></li>
+
+                    {/* <li className="nav-list dropdownCont">
+                        <div className="dropdown-select">
+                            <div className="dropdown">
+                                <Link to='/services' className="dropdownLink2 nav-list2">Services
+                                    <ArrowDropDownIcon className="carotHover"/>
+                                    <div className="dropdown-list">
+                                        <Link to="/myevents" className="dropdown-list__item">Individual</Link>
+                                        <Link to="/likes" className="dropdown-list__item">Couples</Link>
+                                        <Link to="/likes" className="dropdown-list__item">Families</Link>
+                                        <Link to="/likes" className="dropdown-list__item">Adolescents</Link>
+                                        <Link to="/likes" className="dropdown-list__item">Faith Based Counseling</Link>
+                                    </div>
+                                </Link>
+                            </div>
                         </div>
-                    </div>
-                </li> */}
+                    </li> */}
 
-                <li className="nav-list"><Link to="/rates">Rates</Link></li>
-                <li className="nav-list"><Link to="/contact">Contact</Link></li>
-                <li className="nav-list"><Link to="/faq">FAQ</Link></li>
+                    <li className="nav-list"><Link to="/rates">Rates</Link></li>
+                    <li className="nav-list"><Link to="/contact">Contact</Link></li>
+                    <li className="nav-list"><Link to="/faq">FAQ</Link></li>
+                {/* </div> */}
             </ul>
 
         </div>

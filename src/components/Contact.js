@@ -60,7 +60,7 @@ export default function Contact() {
     return (
         <div className='contactPage'>
             <h1>Contact</h1>
-            <h1 className='contactDesc'>You can also reach me directly here as well:You can also reach me directly here as well:You can also reach me directly here as well:You can also reach me directly here as well:</h1>
+            <h1 className='contactDesc'>To find out more about services, participate in a free 15 minute consultation, or to schedule an initial session, please call the office at 225-255-2615, or submit the following information which will be sent to me by email.</h1>
             <div className="formDiv">
                 <form className="form" onSubmit={sendEmail}>
                     

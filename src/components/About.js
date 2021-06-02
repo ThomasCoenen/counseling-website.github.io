@@ -8,28 +8,29 @@ export default function About() {
             <h1>About</h1>
             <img src={kayak} alt=""/>
             <p className="">
-            Hey everyone! Welcome to my page and thanks for visiting. 
-            I'm a self taught full-stack web developer, entreprenuer, guitarist, fisherman,
-            and gardener. I'm an engineer by trade but decided to become a
-            full stack developer.
+            Hello there! My name is Stephanie Coenen. I am a born and raised Louisiana resident who has
+had the privilege of calling the Greater New Orleans area home for most of my life. I recently
+relocated to Denham Springs and am excited to serve Louisiana residents through telehealth
+counseling services. I am a practicing Catholic Christian who has found strength, direction,
+lasting relationships, and countless tools through faith, and I strive to use these gifts along with
+years of professional training to serve those I work with.
             <br/>
             <br/>
-            My main focus is Full Stack Web Development, Web Scraping, and Data Analytics
+            I am a Licensed Professional Counselor and a Nationally Certified Counselor with 5 years of
+counseling experience working with individuals, couples, families, and adolescents as well as
+offering faith-based therapy.
             <br/>
             <br/>
-            Known Languages: Javascript, HTML, CSS, JQuery, PostgreSQL, MongoDB, Express/NodeJS, Python.
+            By approaching counseling from a holistic view – recognizing each client as a composite of
+mind, body, and soul – I encourage clients to bring every resource they have to the counseling
+experience. Techniques from several theories are used to establish individualized treatment
+plans, with emphasis given to Cognitive Behavioral Therapy, Family Systems Therapy, and
+Rational Psychology.
             <br/>
             <br/>
-            My speciailty is building beautiful and responsive desktop/mobile friendly sites that
-            scale well for all devices. I also enjoy scraping websites and analyzing real world data. I'm extremely driven to learn more about
-            all aspects of web developement and am constanly learning new skills 
-            everyday! Staying busy, solving complex problems, and creating opportunities for others have always been of 
-            great interest!
-            <br/>
-            <br/>
-            I would love to work together and am currently looking for a full time job in tech as a 
-            Full Stack Web Developer.
-            I'm also looking to add more projects to my portfolio. So lets work together and build stuff.
+            While clients have the option to incorporate faith into their counseling experience, no client is
+required to do so, nor is it a requirement for any client to belong to or practice any form of
+spirituality.
             </p>
         </div>
     )

@@ -28,11 +28,22 @@ export default function Homescreen() {
 
           <div id="project-heading">
             <h2>
-              My speciailty is building beautiful and responsive desktop/mobile friendly sites that
-              scale well for all devices. I also enjoy scraping websites and analyzing real world data. I'm extremely driven to learn more about
-              all aspects of web developement and am constanly learning new skills 
-              everyday! Staying busy, solving complex problems, and creating opportunities for others have always been of 
-              great interest!
+              Welcome to Transformed Within, LLC! Transformed Within is a telehealth counseling service
+              designed for you to courageously address some of life’s toughest struggles while resting
+              peacefully knowing you are receiving professional, non-judgmental treatment.
+              <br/>
+              <br/>
+              Each person who seeks counseling has a different story to tell and different stressors to
+              address, yet each person shares at least one goal: living a healthier, happier life.
+              <br/>
+              <br/>
+              At Transformed Within, you will walk alongside a licensed counselor who seeks to treat the
+              whole person: mind, body, and spirit. You will have the opportunity to receive faith-based,
+              Christian counseling, which respects both the gift and tool of your faith.
+              <br/>
+              <br/>
+              Explore the services we have to offer, and may your counseling experience be one you can look
+              forward to!
             </h2>
             <h2>
               Hours of operation:
