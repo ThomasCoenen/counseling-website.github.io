@@ -1,16 +1,19 @@
 import React from 'react'
-import { BrowserRouter, Route, Link} from 'react-router-dom';
-import proj1img from '../images/Logo Cropped.png';
+import { BrowserRouter, Route, Link, useHistory, useParams} from 'react-router-dom';
+// import proj1img from '../images/DuplicateRename.png';
+import proj1img from '../images/Finallogo.png';
 import banner from '../images/banner-pref.jpg';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 
 function Nav() {
+    const history = useHistory()
+
     return (
         <div className="header-wrap">
 
             <div className="headerTop">
                 {/* <Link className="logoImg" to="/"><img className="logoImg" src={proj1img} alt="hi"/></Link> */}
-                <img className="logoImg" src={proj1img} alt="hi"/>
+                <img className="logoImg" onClick={(e)=>history.push('/')} src={proj1img} alt="hi"/>
                 {/* <Link className="stockImg" to="/"><img className="stockImg" src={banner} alt="hi"/></Link> */}
                 <img className="stockImg" to="/"></img>
             </div>
@@ -43,7 +46,7 @@ function Nav() {
 
                     <li className="nav-list"><Link to="/rates">Rates</Link></li>
                     <li className="nav-list"><Link to="/contact">Contact</Link></li>
-                    <li className="nav-list"><Link to="/faq">FAQ</Link></li>
+                    <li className="nav-list"><Link to="/faq">FAQs</Link></li>
                 {/* </div> */}
             </ul>
 

@@ -3,7 +3,7 @@ import React from 'react'
 function FAQ() {
     return (
         <div className='FAQPage'>
-            <h1>FAQ</h1>
+            <h1>FAQs</h1>
             <div className='questionAnswerCont'>
                 <h2 className='question'>Does telehealth work?</h2>
                 <h2 className='answer'>Yes! Research shows that telehealth can be just as effective as in-person therapy in many cases. It also provides the convenience of receiving mental health services more easily in a busy schedule or while out of town (though still within state lines). There are some circumstances where telehealth may not be appropriate for a particular client or presenting issue. By speaking with your counselor, you can discuss the pros and cons to see if telehealth seems like the right fit for you.</h2>

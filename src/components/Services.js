@@ -28,7 +28,7 @@ function Services() {
             </div>
 
             <div className='servicesSingleCont'>
-                <h2>Individual</h2>
+                <h2>Individuals</h2>
                 <div className='servicesSingleCont2'>
                     <div className='servicesSingleAbout'>
                         <img className='servicesSingleImg' src={indiv}/>
