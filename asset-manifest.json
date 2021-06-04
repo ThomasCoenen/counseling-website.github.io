@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/counseling-website.github.io/static/css/main.f41ff2e4.chunk.css",
-    "main.js": "/counseling-website.github.io/static/js/main.0a32e48e.chunk.js",
-    "main.js.map": "/counseling-website.github.io/static/js/main.0a32e48e.chunk.js.map",
+    "main.css": "/counseling-website.github.io/static/css/main.3d8f6322.chunk.css",
+    "main.js": "/counseling-website.github.io/static/js/main.39f8fc1a.chunk.js",
+    "main.js.map": "/counseling-website.github.io/static/js/main.39f8fc1a.chunk.js.map",
     "runtime-main.js": "/counseling-website.github.io/static/js/runtime-main.ef3327ab.js",
     "runtime-main.js.map": "/counseling-website.github.io/static/js/runtime-main.ef3327ab.js.map",
-    "static/js/2.19098eac.chunk.js": "/counseling-website.github.io/static/js/2.19098eac.chunk.js",
-    "static/js/2.19098eac.chunk.js.map": "/counseling-website.github.io/static/js/2.19098eac.chunk.js.map",
+    "static/js/2.3184a378.chunk.js": "/counseling-website.github.io/static/js/2.3184a378.chunk.js",
+    "static/js/2.3184a378.chunk.js.map": "/counseling-website.github.io/static/js/2.3184a378.chunk.js.map",
     "index.html": "/counseling-website.github.io/index.html",
-    "static/css/main.f41ff2e4.chunk.css.map": "/counseling-website.github.io/static/css/main.f41ff2e4.chunk.css.map",
-    "static/js/2.19098eac.chunk.js.LICENSE.txt": "/counseling-website.github.io/static/js/2.19098eac.chunk.js.LICENSE.txt",
+    "static/css/main.3d8f6322.chunk.css.map": "/counseling-website.github.io/static/css/main.3d8f6322.chunk.css.map",
+    "static/js/2.3184a378.chunk.js.LICENSE.txt": "/counseling-website.github.io/static/js/2.3184a378.chunk.js.LICENSE.txt",
+    "static/media/Finallogo.1e1560a0.png": "/counseling-website.github.io/static/media/Finallogo.1e1560a0.png",
     "static/media/adolescent.28e3d6cf.jpg": "/counseling-website.github.io/static/media/adolescent.28e3d6cf.jpg",
     "static/media/App.css": "/counseling-website.github.io/static/media/banner-pref.072cdec6.jpg",
     "static/media/couples.41ec44a6.jpg": "/counseling-website.github.io/static/media/couples.41ec44a6.jpg",
@@ -21,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ef3327ab.js",
-    "static/js/2.19098eac.chunk.js",
-    "static/css/main.f41ff2e4.chunk.css",
-    "static/js/main.0a32e48e.chunk.js"
+    "static/js/2.3184a378.chunk.js",
+    "static/css/main.3d8f6322.chunk.css",
+    "static/js/main.39f8fc1a.chunk.js"
   ]
 }
