@@ -3,7 +3,7 @@
 * {
   text-decoration: none;
   font-family: 'PT Serif', serif;
-  font-weight: 100;
+  font-weight: lighter;
 }
 body {
   margin: auto 0;
@@ -11,7 +11,12 @@ body {
   /* background-color: #1E8F5E; */
   /* background-color: #3FBF7F; */
   background-color:  rgba(63, 191, 127, 0.71);
+  /* margin-right:30px; */
   /* opacity: 0.71; */
+  /* margin: 0px 0px 0px -4px; */
+}
+.bold-font{
+  font-weight: 900;
 }
 /*hide any overflow to ensure nothing leaks outside of the .content element that would disturb the parent’s layout.*/
 .content {
@@ -19,8 +24,12 @@ body {
   width: 100vw;
   display: grid;
   grid-template-columns: auto;
+  align-items: center;
+  justify-items: center;
   overflow: hidden;
   overflow-y: scroll;
+  /* margin: 0px 0px 0px -4px; */
+  /* margin-right:30px; */
 }
 .header-wrap {
   display: grid;
@@ -52,7 +61,7 @@ body {
   grid-template-rows: auto;
   justify-items: end;
   list-style: none;
-  font-size: 18px;
+  font-size: 19px;
   /* width: 100%; */
   /* width:90vw; */
   padding: 0px 40px 0px 0px;
@@ -128,14 +137,21 @@ body {
   text-decoration: none;
   border-bottom: 1px solid #dddddd;
 }
+.homePage{
+  display: grid;
+  /* margin-right:20px; */
+}
 #welcome {
   display: grid;
   grid-template-columns: auto;
   justify-items: center;
+  /* margin-right:18px; */
+  /* align-items: center; */
 }
 #welcome > h2 {
   font-size: 35px;
-  text-align: center;
+  /* text-align: center; */
+  /* align-self: center; */
 }
 #welcomeMsg {
   display: grid;
@@ -155,7 +171,8 @@ body {
 .about {
   display: grid;
   justify-items: center;
-  text-align: center;
+  /* text-align: center; */
+  /* margin-right:20px; */
   /* margin-top: -20px; */
   /* padding: 0px 30px 0px 30px; */
 }
@@ -177,12 +194,19 @@ body {
   justify-items: center;
   justify-content: center;
   /* align-items: center; */
-  width:100%;
+  width:70%;
+}
+.contactPage >h1{
+  /* margin-top: -1px; */
 }
 .contactDesc{
-  width:70%;
+  width:100%;
   font-size:20px;
+  margin-top: -1px; 
   /* justify-self: center; */
+}
+.privacyNotice{
+  font-size:20px;
 }
 .formDiv{
   display: grid;
@@ -191,8 +215,8 @@ body {
   justify-items: center;
   align-items: center;
   margin-top:25px;
-  /* justify-content: center;
-  align-content: center; */
+  justify-content: center;
+  align-content: center;
   width:80%;
   /* border: 1px solid;  */
 }
@@ -278,29 +302,38 @@ body {
   font-size: 20px;
   color: black;
   background-color: #BCBCBC;
+  /* background-color: rgba(63, 191, 127, 0.71) */
   /* width:50%; */
 }
 .FAQPage{
   display: grid;
   justify-items: center;
+  /* align-items: center; */
+  align-items: center;
+  /* align-self: center;
+  justify-self: center;
+  align-content: center;
+  justify-content: center; */
+  /* margin-left: -90px; */
+  /* width:80%; */
 }
 .questionAnswerCont{
   display: grid;
   justify-items: center;
-}
-.question, .answer{
-  width:70%;
-  word-break: break-all;
-  font-size:20px;
-  margin-top:-1px;
+  /* width:90%; */
+  width:100%;
 }
 .question{
-  margin-right:40px;
+  width:90%;
+  font-size:23px;
+  margin-top:-1px;
 }
 .answer{
-  margin-left:190px;
-  margin-right:150px;
+  /* margin-left:160px;
+  margin-right:100px; */
+  font-size:20px;
   margin-top: -13px;
+  width:80%;
 }
 
 
@@ -308,6 +341,9 @@ body {
   display: grid;
   align-items: center;
   justify-items: center;
+}
+.ratesPage > h2{
+  margin-top: -1px;
 }
 .ratesContent{
   width: 70%;
@@ -324,19 +360,22 @@ footer {
   grid-template-rows: auto;
   justify-content: start;
   align-items: end;
-  width: 100%;
-  padding: 10px 0px 0px 0px;
-  padding-top:50px;
+  width: 71.5%;
+  padding: 0px 0px 0px 0px;
+  padding-top:43px;
 }
 #connect-links {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto auto auto; 
+  grid-template-rows: auto auto; 
   /* justify-items: center; */
   list-style: none;
   width: 100%;
-  font-size: 17px;
-  margin-right: 15px;
+  font-size: 20px;
+  /* margin-right: 15px; */
+}
+#connect-links > li{
+  margin-left: -30px; 
 }
 .servicesPage{
   display: grid;
@@ -345,11 +384,16 @@ footer {
   /* grid-gap:3px; */
   justify-items: center;
   align-items: center;
+  /* justify-content: center;
+  align-content: center; */
+  /* align-self: center;
+  justify-self: center;   */
   width:100%;
+  /* margin-right:34px; */
 }
 .servicesTop{
   /* text-align: center; */
-  margin: 0px 70px 0px 79px;
+  margin: 0px 70px 30px 79px;
   font-size:20px;
   width:70%;
 }
@@ -360,17 +404,18 @@ footer {
   /* grid-gap:0px; */
   justify-items: center;
   align-items: center;
-  /* align-content: center;
-  justify-content: center; */
+  align-content: center;
+  justify-content: center;
   /* border-bottom: 0.5px solid; */
   padding:0px 0px 12px 0px;
   width:100%;
   /* height:300px; */
-  /* padding-bottom:40px */
+  padding-bottom:33px
 }
 .servicesSingleCont > h2{
   /* padding-top:30px; */
-  font-size:24px;
+  /* margin-bottom: -4px; */
+  font-size:28px;
 }
 .servicesSingleCont2{
   display: grid;
@@ -382,12 +427,12 @@ footer {
   align-items: center;
   justify-items: center;
   /* justify-items: center; */
-  width:95%;
+  /* width:95%; */
   /* border: 1px solid; */
 }
 .servicesSingleImg{
   width: 500px;
-  height:320px;
+  height:340px;
   border-radius: 6px;
   justify-self: end;
 }
@@ -399,9 +444,9 @@ footer {
   width:90%;
 }
 .servicesSingleAbout > h2{
-  font-size:15px;
+  font-size:19px;
   width:85%;
-  word-break: break-all; 
+  /* word-break: break-all;  */
   justify-self: start;
 }
 
@@ -434,29 +479,53 @@ footer {
 
 @media (max-width: 1080px) {
   .servicesSingleImg{
-    width: 320px;
+    /* justify-self: center;
+    align-self: center; */
+    width: 335px;
     height:250px;
+  }
+  .servicesSingleCont > h2{
+    /* padding-top:30px; */
+    margin-bottom: -20px;
   }
   .servicesSingleCont2{
     grid-template-columns: auto;
     grid-template-rows: auto auto;
+    /* justify-items: center;
+    align-items: center; */
+    /* align-content: center;
+    justify-content: center; */
   }
   .servicesSingleAbout{
     justify-items: center;
+    width:100%;
+    /* width:85%; */
+    /* align-content: center; */
+    
   }
   .servicesSingleImg, .servicesSingleAbout > h2{
     justify-self: center;
+    /* align-self: center; */
   }
   .servicesSingleAbout > h2{
-    width:100%;
-    font-size:14px;
+    /* width:85%; */
+    /* font-size:14px; */
   }
 }
 
 @media (max-width: 820px) {
-  #project-heading, .about > p, .servicesTop, .ratesContent, .servicesTop, .contactDesc, .question, .answer {
+  #project-heading, .about > p, .ratesContent, .servicesTop, .question {
     width: 85%;
+    /* margin-right:20px; */
   }
+  .contactDesc{
+    width:95%;
+  }
+  #contact{
+    width:100%;
+    padding-right:4px
+  }
+
   .headerBottom {
     grid-template-columns: repeat(auto-fill, minmax(auto, 120px));
     padding: 0px 0px 0px 0px;
@@ -471,12 +540,12 @@ footer {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 740px) {
   .headerTop {
     /* padding: 0px 0px 0px 11px; */
   }
   .headerBottom {
-    grid-template-columns: repeat(auto-fill, minmax(auto, 90px));
+    grid-template-columns: repeat(auto-fill, minmax(auto, 110px));
     font-size:13px;
   }
   .navlist {
@@ -492,6 +561,12 @@ footer {
   }
 }
 
+@media (max-width: 680px) {
+  .headerBottom {
+    grid-template-columns: repeat(auto-fill, minmax(auto, 95px));
+  }
+}
+
 @media (max-width: 575px) {
   .headerBottom {
     grid-template-columns: repeat(auto-fill, minmax(auto, 85px));
@@ -503,6 +578,11 @@ footer {
   .headerBottom {
     grid-template-columns: repeat(auto-fill, minmax(auto, 75px));
     font-size:13px;
+  }
+  .contactPage{
+    /* margin-right:48px; */
+    /* align-self: center;
+    justify-self: center; */
   }
   .formDiv{
     width:100%;
@@ -519,6 +599,7 @@ footer {
   .headerBottom {
     grid-template-columns: repeat(auto-fill, minmax(auto, 60px));
     font-size:13px;
+    /* justify-items: start; */
   }
 }
 
@@ -624,8 +705,28 @@ footer {
   /* #project-heading > h2{
 
   } */
-  .about > p, #project-heading > h2, .ratesContent, .question, .answer {
+  .about > p, #project-heading > h2, .ratesContent, .answer, .servicesSingleAbout > h2, .privacyNotice {
     font-size: 16px;
+    /* align-self: center;
+    justify-self: center; */
+    /* align-items: center;
+    justify-items: center; */
+    /* margin-right:40px; */
+  }
+  #welcome > h2{
+    font-size:26px;
+  }
+  .question {
+    /* padding-right:20px; */
+    font-size: 18px;
+    margin-right:10px;
+  }
+  .answer{
+    /* width:100%; */
+    /* padding-right:25px; */
+  }
+  #connect-links{
+    font-size:14.3px;
   }
 }
 

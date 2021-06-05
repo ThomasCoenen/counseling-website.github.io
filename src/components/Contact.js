@@ -4,6 +4,7 @@ import emailjs from 'emailjs-com';
 // import { useDispatch, useSelector } from 'react-redux'
 import { Link, useHistory, useParams } from 'react-router-dom'
 // import { Axios, db } from './firebase'
+import notice from '../notice.docx';
 
 export default function Contact() {
     const [firstName, setfirstName] = useState("");
@@ -15,6 +16,18 @@ export default function Contact() {
     const [checkedNo, setCheckedNo] = useState(false);
     const [checkedYes, setCheckedYes] = useState(false);
     // const [status, setStatus] = useState("Send");
+
+    const files = [
+        {
+          name: "Photo 1",
+          thumb:
+            "https://images.unsplash.com/photo-1604263439201-171fb8c0fddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=427&q=80 427w",
+          file:
+            "https://images.unsplash.com/photo-1604263439201-171fb8c0fddc?rnd=" +
+            Math.random(),
+          filename: "photo-1.jpg",
+        },
+    ]
 
     const sendEmail = (e) => {
         e.preventDefault()
@@ -61,7 +74,13 @@ export default function Contact() {
         <div className='contactPage'>
             <h1>Contact</h1>
             <h1 className='contactDesc'>To find out more about services, participate in a free 15 minute consultation, or to schedule an initial session, please call the office at 225-255-2615, or submit the following information which will be sent to me by email.</h1>
+            <a className="privacyNotice" href={notice}>Notice of Privacy Practices</a>
             <div className="formDiv">
+                {/* <input type="file" accept="application/vnd.ms-excel" /> */}
+                {/* <a href="http://example.com/files/myfile.pdf" target="">Download</a> */}
+                {/* <a href="data:application/octet-stream;charset=utf-16le;base64,//5mAG8AbwAgAGIAYQByAAoA">text file</a> */}
+                
+
                 <form className="form" onSubmit={sendEmail}>
                     
                     <div className="doublebox">
@@ -138,7 +157,7 @@ export default function Contact() {
                     </div>
 
                     <div className="singlebox2">
-                        <label htmlFor="message">Brief description of services being sought</label>
+                        <label htmlFor="message">Brief description of services being sought:</label>
                         <textarea 
                             type="text"
                             required 

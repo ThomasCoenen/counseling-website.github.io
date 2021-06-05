@@ -4,6 +4,7 @@ import adolescent from '../images/adolescent.jpg';
 import family from '../images/family.jpg';
 import couples from '../images/couples.jpg';
 import faith from '../images/faith.jpg';
+import notice from '../notice.docx';
 
 function Services() {
     return (
@@ -22,7 +23,7 @@ function Services() {
                     </div>
                     <div className='servicesSingleAbout'>
                         <h2>Human kind has the unique ability to experience life not only through relationship with each other, but also through a relationship with God. Faith provides insight into our very existence, purpose, the trials we experience on Earth, and the hope we have for the future. By incorporating faith into counseling, you have the opportunity to see your presenting issues in a new light, find meaning in the struggle, and grow not only as a person but in your spiritual life as well. Faith-based counseling is not intended to force beliefs on clients, but rather offer clients the chance to draw from a very important and powerful part of their lives to assist them in their therapeutic journey. 
-(While clients have the option to incorporate faith into their counseling experience, no client is required to do so, nor is it a requirement for any client to belong to or practice any form of spirituality.) </h2>
+                            (While clients have the option to incorporate faith into their counseling experience, no client is required to do so, nor is it a requirement for any client to belong to or practice any form of spirituality.) </h2>
                     </div>
                 </div>
             </div>
@@ -98,6 +99,8 @@ function Services() {
                     </div>
                 </div>
             </div>
+            
+            <a className="privacyNotice" href={notice}>Notice of Privacy Practices</a>
             
         </div>
     )

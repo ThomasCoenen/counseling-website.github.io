@@ -19,7 +19,7 @@ export default function Homescreen() {
   }
 
   return (
-      <>
+      <div className="homePage">
         <section id="welcome">
             <h2>Transformed Within, LLC</h2>
         </section>
@@ -51,6 +51,6 @@ export default function Homescreen() {
           </div>
 
         </section>
-      </>
+      </div>
   )
 }
