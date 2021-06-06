@@ -1,12 +1,12 @@
 import React from 'react'
 import '../App.css';
-import kayak from '../images/kayak.jpg';
+import steph from '../images/steph.png';
 
 export default function About() {
     return (
         <div className="about">
             <h1>About</h1>
-            <img src={kayak} alt=""/>
+            <img src={steph} alt=""/>
             <p className="">
             Hello there! My name is Stephanie Coenen. I am a born and raised Louisiana resident who has
 had the privilege of calling the Greater New Orleans area home for most of my life. I recently

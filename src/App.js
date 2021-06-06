@@ -26,7 +26,7 @@ function App(props) {
         <Route path="/services" component={Services}></Route>
         <Route path="/about" component={About}></Route>
         <Route path="/" component={Homescreen} exact></Route>
-        <Footer/>
+        <Footer className="Footer"/>
         <br/>
       </div>
   </BrowserRouter>
