@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/counseling-website.github.io/static/css/main.0c6e91c5.chunk.css",
-    "main.js": "/counseling-website.github.io/static/js/main.5cd675d6.chunk.js",
-    "main.js.map": "/counseling-website.github.io/static/js/main.5cd675d6.chunk.js.map",
+    "main.css": "/counseling-website.github.io/static/css/main.9c94d04e.chunk.css",
+    "main.js": "/counseling-website.github.io/static/js/main.fd349acd.chunk.js",
+    "main.js.map": "/counseling-website.github.io/static/js/main.fd349acd.chunk.js.map",
     "runtime-main.js": "/counseling-website.github.io/static/js/runtime-main.ef3327ab.js",
     "runtime-main.js.map": "/counseling-website.github.io/static/js/runtime-main.ef3327ab.js.map",
     "static/js/2.24278985.chunk.js": "/counseling-website.github.io/static/js/2.24278985.chunk.js",
     "static/js/2.24278985.chunk.js.map": "/counseling-website.github.io/static/js/2.24278985.chunk.js.map",
     "index.html": "/counseling-website.github.io/index.html",
-    "static/css/main.0c6e91c5.chunk.css.map": "/counseling-website.github.io/static/css/main.0c6e91c5.chunk.css.map",
+    "static/css/main.9c94d04e.chunk.css.map": "/counseling-website.github.io/static/css/main.9c94d04e.chunk.css.map",
     "static/js/2.24278985.chunk.js.LICENSE.txt": "/counseling-website.github.io/static/js/2.24278985.chunk.js.LICENSE.txt",
     "static/media/Finallogo.1e1560a0.png": "/counseling-website.github.io/static/media/Finallogo.1e1560a0.png",
     "static/media/adolescent.28e3d6cf.jpg": "/counseling-website.github.io/static/media/adolescent.28e3d6cf.jpg",
@@ -17,14 +17,14 @@
     "static/media/faith.b634c708.jpg": "/counseling-website.github.io/static/media/faith.b634c708.jpg",
     "static/media/family.2791c557.jpg": "/counseling-website.github.io/static/media/family.2791c557.jpg",
     "static/media/individual.7d396e6f.jpg": "/counseling-website.github.io/static/media/individual.7d396e6f.jpg",
-    "static/media/kayak.5cd9cff9.jpg": "/counseling-website.github.io/static/media/kayak.5cd9cff9.jpg",
     "static/media/logo6.0a3a1f55.png": "/counseling-website.github.io/static/media/logo6.0a3a1f55.png",
-    "static/media/notice.a520e3bb.docx": "/counseling-website.github.io/static/media/notice.a520e3bb.docx"
+    "static/media/notice.a520e3bb.docx": "/counseling-website.github.io/static/media/notice.a520e3bb.docx",
+    "static/media/steph.22144b7f.png": "/counseling-website.github.io/static/media/steph.22144b7f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ef3327ab.js",
     "static/js/2.24278985.chunk.js",
-    "static/css/main.0c6e91c5.chunk.css",
-    "static/js/main.5cd675d6.chunk.js"
+    "static/css/main.9c94d04e.chunk.css",
+    "static/js/main.fd349acd.chunk.js"
   ]
 }
