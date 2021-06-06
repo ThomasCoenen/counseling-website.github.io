@@ -587,7 +587,8 @@ footer {
     font-size:13px;
   }
   .about > img {
-    width: 380px;
+    /* object-fit: unset; */
+    width: 375px;
     height: 350px;
   }
 }
